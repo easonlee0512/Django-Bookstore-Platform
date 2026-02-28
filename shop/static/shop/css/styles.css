@@ -1,0 +1,51 @@
+.thumb img {
+    width: 200px;
+    /* 你可以根據需要調整這些值 */
+    height: 300px;
+    /* 你可以根據需要調整這些值 */
+    object-fit: cover;
+    /* 確保圖片按比例縮放並填充框 */
+    float: left;
+}
+
+.thumb {
+    width: 200px;
+    /* 你可以根據需要調整這些值 */
+    height: 360px;
+    float: left;
+    margin: 10px;
+    color: white;
+
+}
+
+.thumb img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.detail img {
+    width: 300px;
+    float: left;
+}
+
+.detail {
+    color: white;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-heading img {
+    width: 30px;
+}
+
+.shoppingcar {
+    float: right;
+}
+
+
+.color {
+    color: white;
+}
