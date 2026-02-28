@@ -244,13 +244,6 @@ OrderItem（訂單項目）
 ├── price       DecimalField          當時購買價格
 └── quantity    PositiveIntegerField  購買數量
 ```
-
----
-
-## 畫面截圖
-
-> _請在此處補充商品列表頁、購物車、結帳表單及付款頁面的截圖。_
-
 ---
 
 ## 備註
