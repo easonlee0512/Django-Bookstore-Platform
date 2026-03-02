@@ -185,22 +185,6 @@ http://127.0.0.1:8000/
 
 ---
 
-## URL 路由對照表
-
-| URL 路徑 | View 函式 | 說明 |
-|---|---|---|
-| `/` | `product_list` | 首頁，顯示所有商品 |
-| `/<分類-slug>/` | `product_list_by_category` | 依分類篩選商品 |
-| `/<id>/<slug>/` | `product_detail` | 商品詳細頁 |
-| `/cart/` | `cart_detail` | 購物車頁面 |
-| `/cart/add/<id>/` | `cart_add` | 加入商品至購物車（POST）|
-| `/cart/remove/<id>/` | `cart_remove` | 從購物車移除商品 |
-| `/orders/` | `order_create` | 建立訂單（結帳）|
-| `/payment/process/` | `payment_process` | PayPal 付款流程 |
-| `/admin/` | Django Admin | 後台管理介面 |
-
----
-
 ## 資料庫模型
 
 ### `shop` App
@@ -249,5 +233,4 @@ OrderItem（訂單項目）
 
 - **Email 後端** 設定為 `console` 模式，訂單確認信會輸出至終端機而非實際寄出。
 - **PayPal** 透過 `PAYPAL_TEST = True` 設定為沙盒（測試）模式，不會產生真實交易。
-- 商品圖片上傳路徑為 `media/products/<年>/<月>/<日>/`。
 
